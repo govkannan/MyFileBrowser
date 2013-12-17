@@ -987,7 +987,7 @@ MyFileOperationListener, OnItemSelectedListener , OnItemLongClickListener {
 		
 		AlertDialog.Builder alert = new AlertDialog.Builder(this);
 
-		alert.setTitle("Error");
+		alert.setTitle(R.string.error_title_txt);
 		
 		alert.setMessage(message);
 		

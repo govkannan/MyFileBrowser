@@ -61,6 +61,7 @@
 	<string name="rename_msg_txt">Enter new name</string>
 	<string name="rename_not_allowed_txt">Rename is not allowed for this file</string>
 	<string name="rename_file_name_empty_txt">File name can not be empty</string>
+	<string name="error_title_txt">Error</string>
 	
 	 <string-array name="goto_folder_options">
 	     <item>Go to</item>

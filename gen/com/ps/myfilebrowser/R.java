@@ -196,6 +196,7 @@ public final class R {
         public static final int delete_confirm_title=0x7f06002f;
         public static final int delete_confirm_txt=0x7f060030;
         public static final int editor_save_txt=0x7f060016;
+        public static final int error_title_txt=0x7f06003c;
         public static final int header_folder_size_txt=0x7f060005;
         public static final int header_total_txt=0x7f060003;
         public static final int hello_world=0x7f060002;
