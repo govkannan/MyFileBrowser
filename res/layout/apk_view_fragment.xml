@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   
+    <LinearLayout 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+	    <TextView
+    	    android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/apkview_apk_file_name"/>
+	    <TextView
+	        android:id="@+id/apk_file_name"
+    	    android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+    	    android:text="@string/apkview_apk_file_value"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+	    <TextView
+    	    android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/apkview_app_name_title"/>
+	    <TextView
+	        android:id="@+id/apk_app_name"
+    	    android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+    	    android:text="@string/apkview_app_name_value"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+	    <TextView
+    	    android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/apkview_app_version_title"/>
+	    <TextView
+	        android:id="@+id/apk_app_version"
+    	    android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+    	    android:text="@string/apkview_app_version_value"/>
+    
+    </LinearLayout>
+    <LinearLayout 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+	    <TextView
+    	    android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/apkview_app_pkg_title"/>
+	    <TextView
+	        android:id="@+id/apk_pkg_name"
+    	    android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+    	    android:text="@string/apkview_app_pkg_value"/>
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical">
+	    <TextView
+	        android:id="@+id/apk_install_status"
+    	    android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="test"/>
+	</LinearLayout>
+    <LinearLayout 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+	    <Button android:id="@+id/apk_install_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Install"
+	        android:onClick="onInstall" />
+	    <Button android:id="@+id/apk_run_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Run"
+	        android:onClick="onRun" />"
+	    	        
+    </LinearLayout>
+    
+
+</LinearLayout>

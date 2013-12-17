@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+    	<ImageView
+    	    android:id="@+id/back_button"
+        	android:layout_width="40dp"
+        	android:layout_height="40dp"
+        	android:padding="5dp"
+        	android:src="@drawable/ic_menu_revert"
+        	android:onClick="onBackSelect"/>
+    	<LinearLayout
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:orientation="vertical">
+    	
+    	<TextView android:id="@+id/header_total_files"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:textSize="12sp"
+    	    android:layout_marginLeft="10dp"
+    	    android:hint="@string/header_total_txt"/>
+    	
+    	<TextView android:id="@+id/header_folder_size"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:textSize="12sp"
+    	    android:layout_marginLeft="10dp"
+    	    android:hint="@string/header_folder_size_txt"/>
+    	</LinearLayout>
+    	
+    	<View android:layout_width="0dp" 
+    	    android:layout_height="0dp"
+    	    android:layout_weight="1"/>
+    	<LinearLayout
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:orientation="vertical">
+    	    "
+    	<TextView android:id="@+id/header_internal_txt"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:textSize="12sp"
+    	    android:layout_marginLeft="10dp"/>
+
+    	<TextView android:id="@+id/header_external_txt"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:textSize="12sp"
+    	    android:layout_marginLeft="10dp"/>
+    	</LinearLayout>
+    </LinearLayout>
+    	 

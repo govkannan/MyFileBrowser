@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NiD File Viewer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="header_total_txt">items </string>
+    <string name="items_txt">items </string>
+    <string name="header_folder_size_txt">size</string>
+    <string name="title_activity_image_viewer">NiD Image Viewer</string>
+    <string name="title_activity_pstext_editor">NiD Text Editor</string>
+    <string name="title_activity_apkviewer">NiD APK viewer</string>
+    <string name="title_apkviewer_tab_view">view</string>
+    <string name="title_apkviewer_tab_menifest">Manifest.xml</string>
+    <string name="apkview_app_name_title">Application Name : </string>
+    <string name="apkview_app_name_value">empty</string>
+    <string name="apkview_app_version_title">Ver name / code : </string>
+    <string name="apkview_app_version_value">0</string>
+    <string name="apkview_app_pkg_title">Package : </string>
+    <string name="apkview_app_pkg_value">empty</string>
+    <string name="apkview_app_status_app_found"> Application installed already with </string>
+    <string name="apkview_app_status_app_not_found"> Application is not installed</string>
+    <string name="apkview_app_txt_app_install">Install</string>
+    <string name="apkview_app_txt_app_uninstall">Uninstall</string>
+    <string name="apkview_app_txt_app_update">Update</string>
+    <string name="editor_save_txt">Save</string>
+    <string name="browser_edit_txt">Edit</string>
+    <string name="browser_layout_txt">Layout</string>
+    <string name="browser_view_txt">View</string>
+    <string name="browser_cancel_txt">Cancel</string>
+    <string name="browser_edit_select_all_txt">Select All</string>
+    <string name="browser_edit_unselect_all_txt">Unselect All</string>
+    <string name="browser_edit_copy_txt">Copy</string>
+    <string name="browser_edit_paste_txt">Paste</string>
+    <string name="browser_edit_delete_txt">Delete</string>
+    <string name="browser_edit_new_txt">New</string>
+    <string name="browser_edit_new_file_txt">File</string>
+    <string name="browser_edit_new_folder_txt">Folder</string>
+    <string name="browser_edit_share_txt">Share</string>
+    <string name="new_file_title_txt">New File</string>
+    <string name="new_file_message_txt">Enter file name</string>
+    <string name="new_folder_title_txt">New Folder</string>
+    <string name="new_folder_message_txt">Enter folder name</string>
+    <string name="new_ok_txt">OK</string>
+    <string name="new_cancel_txt">Cancel</string>
+    <string name="title_activity_zip_viewer">NiD ZipViewer</string>
+    <string name="help_msg_on_mark_several">Please select one or more items to COPY or MOVE or DELETE or SHARE</string>
+    <string name="help_msg_on_copy_cut">Please select the folder  and press PASTE Icon to copy files</string>
+    <string name="help_msg_on_copy">Please select one or more items to be copied</string>
+	<string name="help_msg_on_cut">Please select one or more items to be moved</string>
+	<string name="delete_confirm_title">Delete</string>
+	<string name="delete_confirm_txt"> This will delete all marked files.  Do you want to delete? </string>
+	<string name="yes_txt"> Yes</string>
+	<string name="no_txt">No</string>
+	<string name="no_read_txt">(No read access)</string>
+	<string name="read_only_txt">(Read only)</string>
+	<string name="unknown_file_open_as">Open As</string>
+	<string name="apkview_apk_file_name">File Name  : </string>
+	<string name="apkview_apk_file_value">file.apk</string>
+	<string name="rename_title_txt">Rename</string>
+	<string name="rename_msg_txt">Enter new name</string>
+	<string name="rename_not_allowed_txt">Rename is not allowed for this file</string>
+	<string name="rename_file_name_empty_txt">File name can not be empty</string>
+	
+	 <string-array name="goto_folder_options">
+	     <item>Go to</item>
+        <item>SD Card</item>
+        <item>Home</item>
+        <item>Photos</item>
+        <item>Music</item>
+    </string-array>
+    
+	 <string-array name="unknow_file_open_options">
+	     <item>Text</item>
+        <item>Image</item>
+        <item>Video</item>
+        <item>Music</item>
+    </string-array>
+	 
+</resources>

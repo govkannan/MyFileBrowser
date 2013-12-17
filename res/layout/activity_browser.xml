@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BrowserActivity"
+    android:orientation="vertical">
+   <LinearLayout android:id="@+id/path_view_layout"
+        android:layout_height="40dp"
+        android:layout_width="fill_parent"
+        android:background="@drawable/mirror_bg"
+        android:orientation="horizontal">
+   
+   <Spinner android:id="@+id/goto_folder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        
+    <TextView android:id="@+id/header_folder_path"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:textSize="14sp"
+    	    android:layout_marginLeft="10dp"/>
+    
+    
+</LinearLayout>        
+   <LinearLayout android:id="@+id/generic_view_layout"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/path_view_layout"
+        android:orientation="horizontal">
+  </LinearLayout>
+    <LinearLayout android:id="@+id/browser_mode_header"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center">
+    </LinearLayout>
+    
+</RelativeLayout>
